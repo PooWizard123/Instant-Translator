@@ -1,0 +1,52 @@
+body {
+    font-size: 16px;
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.voice-to-text {
+    width: 600px;
+    text-align: center;
+}
+
+#convert-text {
+    width: 45%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    resize:none;
+
+}
+
+#response {
+    width: 45%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    resize:none;
+}
+
+button {
+
+    width: 10%;
+    border: none;
+    background-color: #04AA6D;
+     padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+select {
+    width: 10%;
+}
+
